@@ -1,6 +1,6 @@
 # AI Part of the Project
 
-This directory consists the .ipynb files of different AI models along with their modified variants.
+This directory consists the .ipynb files of different AI models along with their modified variants, their results and regarding information files.
 
 ## Table of Content
 
@@ -35,8 +35,9 @@ At the first, we tried VGG-19 with fully connected bottom layers where we reciev
     <td><img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/01541.jpeg" width=250></td>
     <td><img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/0021.jpg" width=250></td>
     <td><img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/03621.jpg" width=250></td>
-    <td><img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/0071.jpg" width=250></td>
+    <td><img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/00071.jpg" width=250></td>
   </tr>
+</table> 
 
 ## Approach
 
@@ -64,7 +65,7 @@ At the first, we tried VGG-19 with fully connected bottom layers where we reciev
 ## GLCM Feature Extractor
 
 <div align="center">
-  <img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/GLCM-features.JPG" width=900 />
+  <img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/GLCM-features.jpg" width=500 />
   <p> GLCM - Features Formulas </p>
 </div>
 
@@ -108,6 +109,13 @@ At the first, we tried VGG-19 with fully connected bottom layers where we reciev
   </tr>
 </table>
 
+
+<div align="center">
+  <img src="https://github.com/caped-crusader16/AgroXG/blob/main/Artificial-Intelligence/ExtractedFeatures.jpg" width=400 />
+  <p> Features Extracted using GLCM</p>
+</div>
+
+
 ## Discussion over Results
 
 ### A.) Effect of model architecture
@@ -115,11 +123,15 @@ At the first, we tried VGG-19 with fully connected bottom layers where we reciev
 ## Key Takeaways
 
 ## References
--  L. A. Gatys, A. S. Ecker, and M. Bethge, “A Neural Algorithm of Artistic Style,” arXiv.org, 02-Sep-2015. [Online]. Available: [Link](https://arxiv.org/abs/508.06576). 
+-  S. Hassan, A. Maji, M. Jasi ́nski, Z. Leonowicz and E. Jasi ́nska,”Identification of Plant-Leaf Diseases Using CNN and Transfer-Learning Approach”,  Electronics,  vol.  10,  no.  12, p. 1388, 2021. Available: [Link](10.3390/electronics10121388).
 - S. Desai, “Neural Artistic Style Transfer: A Comprehensive Look,” Medium, 14-Sep-2017. [Online]. Available: [Link](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199).
-- TensorFlow, “Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution,” Medium, 27-Sep-2018. [Online]. Available: [Link](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
-- N. Kasten, “Art & AI: The Logic Behind Deep Learning ’Style Transfer’,” Medium, 12-Mar-2020. [Online]. Available: [Link](https://medium.com/codait/art-ai-the-logic-behind-deep-learning-style-transfer-1f59f51441d1).
-- Leon A. Gatys, ”Image Style Transfer Using Convolutional Neural Networks”, . [Online]. Available: [Link](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf).
+- [Deep Learning-Based Classification of Fruit Diseases: An Application for Precision Agriculture](https://www.researchgate.net/publication/344478535_Deep_Learning-based_Classification_of_Fruit_Diseases_An_Application_for_Precision_Agriculture)
+- [Statistical Texture Measures Computed from Gray Level Coocurrence Matrices](https://www.uio.no/studier/emner/matnat/ifi/INF4300/h08/undervisningsmateriale/glcm.pdf)
+- [Learning Feature Fusion in Deep Learning-Based Object Detector](https://www.hindawi.com/journals/je/2020/7286187/)
+
+- [Cattle Race Classification Using Gray Level Co-occurrence Matrix Convolutional Neural Networks](https://www.researchgate.net/publication/282856577_Cattle_Race_Classification_Using_Gray_Level_Co-occurrence_Matrix_Convolutional_Neural_Networks)
+
+- [The Real-World-Weight Cross-Entropy Loss Function: Modeling the Costs of Mislabeling](https://ieeexplore.ieee.org/document/8943952)
 
 * * *
 
